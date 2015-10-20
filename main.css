@@ -1,0 +1,195 @@
+/*Imports*/
+
+/*Globals*/
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: #7d797c url(../img/background.jpg) center center no-repeat fixed;
+	background-size: cover;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;
+}
+
+.clearfix:before, .clearfix:after{
+	content:"";
+	display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+h1, h2, h3, button, time {
+	font-family: Teko, sans-serif;
+	text-transform: uppercase;
+}
+
+#hamburger {	
+padding: 25px;
+background-color: black}
+
+#hamburger div {
+	width: 20px;
+	height: 3px;
+	margin-top: 5px;
+	background-color: white;
+}
+
+#hamburger div:first-child {
+	margin-top: 0;
+}
+
+h1{
+	font-size: 120px;
+	font-weight: 300;
+	letter-spacing: 20px;
+	margin-bottom: 39px;
+}
+
+/*Header*/
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.logo{
+	float: left;
+	width: 70px;
+	height: 70px;
+}
+
+.logo img{
+	width: 100%;
+	height: auto;
+}
+
+header.topHeader{
+	margin-bottom: 191px;
+}
+
+header nav{
+	float: right;
+}
+
+header nav ul{
+	display: none;
+}
+
+/*Main*/
+
+main {
+	width: 60%;
+	margin-bottom: 144px;
+}
+
+b.lead{
+	display: block;
+	margin-bottom: 25px;
+	font-size: 26px;
+	font-weight: 300;
+	color: #d9d8d9;
+}
+
+p {
+	color: #949193;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 2.5px;
+	margin-top: 60px;
+	margin-bottom: 25px;
+}
+
+/* main > section {exept last child}*/
+
+main section h2+p {
+	font size: 18px;
+	margin-bottom: 40px;
+	width: 68%;
+}
+
+input {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 2.5;
+	padding-left: 1em;
+	width: 350px;
+	vertical-align: middle;
+}
+
+button {
+	font-size: 18px;
+	font-weight: 400;
+	border: none;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	padding: 9px 30px;
+	color: #fff;
+	background-color: red;
+}
+
+aside {
+	margin-top: 40px;
+}
+
+i.fa.fa-twitter {
+	margin-right: 1.5em;
+}
+
+h3 {
+	letter-spacing: 2px;
+	font-size: 16px;
+}
+
+aside article {
+	margin-top: 10px;
+	margin-left: 39px;
+	width: 260px;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+article time {
+	display: block;
+	margin-top: 10px;
+	font-size: inherit;
+	color: #949193;
+
+}
+
+/*Footer*/
+footer {
+	bottom: 0;
+	padding-bottom: 1em;
+	font-size: 12px;
+	color: #949193;
+}
+
+footer p {
+	float: left;
+}
+
+a {
+	color: white;
+}
+
+.terms-privacy {
+	float: right;
+}
+
+.terms-privacy a:first-child{
+	margin-right: 1.5em;
+}
+
+.terms-privacy a {
+	color:#949193;
+}
